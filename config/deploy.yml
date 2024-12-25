@@ -1,8 +1,8 @@
 # Name of your application. Used to uniquely configure containers.
-service: abnwp
+service: ajinclasses
 
 # Name of the container image.
-image: des6747/abnwp
+image: des6747/ajinclasses
 
 # Deploy to these servers.
 servers:
@@ -20,8 +20,8 @@ servers:
 proxy:
   ssl: true
   hosts:
-    - abnwp.online
-    - www.abnwp.online
+    - ajinclasses.online
+    - www.ajinclasses.online
 
 # Credentials for your image host.
 registry:
